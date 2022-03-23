@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+// eslint-disable-next-line no-unused-vars
+import { Navigate } from 'react-router-dom';
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Home from "./components/Home";
